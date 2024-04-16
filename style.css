@@ -49,17 +49,17 @@ img.overlay-image {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
+        border-radius: 50%;
+        transition: transform 0.3s ease;
     }
 
     .topnav a:hover {
-        background-color: #ddd;
         color: black;
-    }
-    .topnav a.active {
-        background-color: rgb(9, 117, 33);
         color: white;
+        transform: scale(1.2);
+        opacity: 0.8;
     }
-    
+
     .discord {
         border-radius: 50%; 
         transition: transform 0.3s ease; 
