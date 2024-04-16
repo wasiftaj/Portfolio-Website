@@ -59,7 +59,7 @@ img.overlay-image {
         transform: scale(1.2);
         opacity: 0.8;
     }
-
+     
     .discord {
         border-radius: 50%; 
         transition: transform 0.3s ease; 
