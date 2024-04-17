@@ -55,7 +55,7 @@ img.overlay-image {
 
     .topnav a:hover {
         color: black;
-        color: white;
+        color: #007BFF;
         transform: scale(1.2);
         opacity: 0.8;
     }
@@ -68,6 +68,7 @@ img.overlay-image {
     .discord:hover {
         transform: scale(1.2);
         opacity: 0.8;
+        
     }
     .github {
         border-radius: 50%;
@@ -120,4 +121,4 @@ img.overlay-image {
     body.fade-in, .fade-in {
         opacity: 1;
     }
-      
+    
