@@ -1,0 +1,62 @@
+/*Universal*/
+.topnav{
+    overflow: hidden;
+}
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.topnav a:hover {
+    color: black;
+    color: white;
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+/* education.html*/
+body.edu {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*contactpage.html*/
+body.con {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*aboutpage.html*/
+body.abo {
+    background-color: black;
+    color: white;
+}
