@@ -16,7 +16,7 @@
 
 .topnav a:hover {
     color: black;
-    color: white;
+    color: #007BFF;
     transform: scale(1.2);
     opacity: 0.8;
 }
