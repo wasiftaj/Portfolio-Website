@@ -9,6 +9,15 @@ img.overlay-image {
         height: auto;
         z-index: 2;
     }
+   
+
+
+
+
+
+
+
+
     h1.overlay-name{
         position: absolute ;
         top: 55%;
@@ -42,6 +51,7 @@ img.overlay-image {
     .topnav{
         overflow: hidden;
     }
+    
     .topnav a {
         float: right;
         color: white;
@@ -51,20 +61,15 @@ img.overlay-image {
         text-decoration: none;
         font-size: 17px;
         border-radius: 50%;
-        transition: transform 0.3s ease;
     }
-
+    
     .topnav a:hover {
-        color: black;
         color: #007BFF;
         transform: scale(1.2);
         opacity: 0.8;
     }
+    
      
-    .discord {
-        border-radius: 50%; 
-        transition: transform 0.3s ease; 
-    }
     
     .discord:hover {
         transform: scale(1.2);
