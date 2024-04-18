@@ -123,12 +123,5 @@ img.overlay-image {
     body.fade-in, .fade-in {
         opacity: 1;
     }
-    hr {
-        margin-top: -auto; 
-        border-color: #727475;
-     }
-    #myname {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: white;
-    }
+    
     
