@@ -14,7 +14,7 @@ img.overlay-image {
         top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: white;
+        color: #007BFF;
         z-index: 3;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: normal;
@@ -44,7 +44,7 @@ img.overlay-image {
     }
     .topnav a {
         float: right;
-        color: #f2f2f2;
+        color: white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -113,6 +113,7 @@ img.overlay-image {
     body {
         opacity: 0;
         transition: opacity 1.5s ease-in-out;
+        background-color: rgb(23, 25, 44);
     }
     .fade-in {
         opacity: 0;
