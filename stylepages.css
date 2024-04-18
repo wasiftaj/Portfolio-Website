@@ -31,7 +31,7 @@
 
 /* education.html*/
 body.edu {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
@@ -58,7 +58,7 @@ body.con {
 
 /*aboutpage.html*/
 body.abo {
-    background-color: rgb(23, 25, 44);
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
@@ -87,8 +87,6 @@ body.abo {
     padding-left: 4%;
     padding-top: 2%;
     font-size: 40px
-    
-    
 }
 .absolute {
     position: absolute;
