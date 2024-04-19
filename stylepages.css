@@ -64,9 +64,9 @@ body.abo {
 }
 
 .aboutpic {
-    width: 100%; /* Adjusted for responsiveness */
+    width: 100%; 
     height: auto;
-    margin: 20px 0; /* Adjusted for responsiveness */
+    margin: 20px 0; 
 }
 
 .about {
