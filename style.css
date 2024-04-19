@@ -52,47 +52,6 @@
         overflow: hidden;
     }
     
-    .topnav a {
-        float: right;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        margin-top: 15px;
-        text-decoration: none;
-        font-size: 17px;
-        border-radius: 50%;
-    }
-    
-    .topnav a:hover {
-        color: #007BFF;
-        transform: scale(1.2);
-        opacity: 0.8;
-    }
-    
-     
-    
-    .discord:hover {
-        transform: scale(1.2);
-        opacity: 0.8;
-        
-    }
-    .github {
-        border-radius: 50%;
-        transition: transform 0.3s ease;
-    }
-    .github:hover{
-        transform: scale(1.2);
-        opacity: 0.8;
-    }
-    .linkedin {
-        border-radius: 50%;
-        transition: transform 0.3s ease;
-    }
-    .linkedin:hover {
-        transform: scale(1.2);
-        opacity: 0.8;
-    }
-
 
 
     /*Chat gpt code*/
