@@ -46,6 +46,16 @@ body.edu {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*chat gpt code*/
 
 body.abo {
@@ -62,7 +72,7 @@ body.abo {
 .about {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    text-align: center; /* Adjusted for responsiveness */
+    text-align: center; 
 }
 
 .underabout {
@@ -79,16 +89,16 @@ body.abo {
     padding: 0 10px; /* Adjusted for responsiveness */
 }
 
-/* Media Queries for responsiveness */
+
 @media (min-width: 768px) {
     .aboutpic {
         width: 470px;
-        margin: 20px auto; /* Adjusted for responsiveness */
+        margin: 20px auto; 
     }
 
     .about {
         margin-top: -43%;
-        text-align: left; /* Adjusted for responsiveness */
+        text-align: left; 
         margin-left: 46%;
     }
 
