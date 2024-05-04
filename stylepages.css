@@ -30,8 +30,18 @@
 
 
 /* education.html*/
-body.edu {
-    background-color: rgb(0, 0, 0);
+
+
+
+
+
+
+
+
+
+/*contactpage.html*/
+body.con {
+    background-color: black;
     color: white;
 }
 
@@ -42,19 +52,8 @@ body.edu {
 
 
 
-/*contactpage.html*/
 
-
-
-
-
-
-
-
-
-
-
-
+/*aboutpage.html*/
 /*chat gpt code*/
 
 body.abo {
