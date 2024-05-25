@@ -111,92 +111,54 @@
 .btn-58:before {
   border: 0 solid;
   box-sizing: border-box;
+  size: 50%;
 }
-.btn-58 {
-  -webkit-tap-highlight-color: 
-transparent;
-  -webkit-appearance: button;
-  background-color: 
-#000;
-  background-image: none;
-  color: 
-#fff;
+.btn-gradient-20 {
+  border: 5em;
   cursor: pointer;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  font-size: 100%;
-  line-height: 1.5;
-  margin: 0;
-  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
-  padding: 0;
-}
-.btn-58:disabled {
-  cursor: default;
-}
-.btn-58:-moz-focusring {
-  outline: auto;
-}
-.btn-58 svg {
-  display: block;
-  vertical-align: middle;
-}
-.btn-58 [hidden] {
-  display: none;
-}
-.btn-58 {
-  background: none;
-  border-radius: 999px;
-  box-sizing: border-box;
+  outline: none;
+  font-size: 16px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  padding: 0.7em 2em;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px 
+rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
   color: 
-#000;
-  display: block;
-  font-weight: 900;
-  -webkit-mask-image: none;
-  padding: 1.2rem 3rem;
-  position: relative;
-  text-transform: uppercase;
+white;
 }
-.btn-58:before {
-  background: 
-#fff;
-  border-radius: 999px;
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
+
+.btn-gradient-20 .text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: 
+transparent;
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
 }
-.btn-58:after,
-.btn-58:before {
+
+.btn-gradient-20:after {
   content: "";
-  pointer-events: none;
+  border-radius: 18px;
   position: absolute;
-  transition: 0.4s;
+  margin: 4px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   z-index: -1;
-}
-.btn-58:after {
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
   background: 
-hsla(0, 0%, 100%, 0.2);
-  border-radius: 50%;
-  height: 30px;
-  left: 90%;
-  top: 80%;
-  width: 30px;
+#0e0e10;
 }
-.btn-58:hover:before {
-  height: 90%;
-  left: 5%;
-  top: 10%;
-  width: 90%;
+
+.btn-gradient-20:hover {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  box-shadow: 0 12px 24px 
+rgba(128, 128, 128, 0.1);
 }
-.btn-58:hover:after {
-  border-radius: 10px;
-  height: 80%;
-  left: 5%;
-  top: 10%;
-  width: 90%;
+
+.btn-gradient-20:hover .text {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
 }
-    
-    
