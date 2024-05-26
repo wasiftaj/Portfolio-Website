@@ -187,16 +187,6 @@ main {
     line-height: 1.6;
 }
 
-.about-image {
-    flex: 1;
-    text-align: center;
-}
-
-.about-image img {
-    border-radius: 50%;
-    background-color: #007bff;
-    padding: 1rem;
-}
 
 footer {
     background-color: #fff;
