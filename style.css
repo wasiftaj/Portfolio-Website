@@ -3,6 +3,10 @@ body {
   overflow: hidden;
   margin: 0;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .orange-circle, .white-circle, .black-circle, .blue-circle {
   border-radius: 50%;
@@ -91,4 +95,23 @@ button a {
   nav ul li {
     margin: 5px 0;
   }
+}
+li {
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  border-radius: 30px;
+  width: 65%;
+  margin-top: 65px;
+  margin-right: auto;
+  margin-left: auto;
+}
+button {
+  margin-left: 110px;
+  border-radius: 8px;
 }
