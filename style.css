@@ -79,7 +79,7 @@ button a {
     right: -20px;
   }
   
-  .black-circle .blue-circle {
+  .black-circle, .blue-circle {
     display: none;
   }
   
