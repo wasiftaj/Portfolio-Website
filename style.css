@@ -1,80 +1,48 @@
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.top-container {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-}
-
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px 16px;
-  color: #f1f1f1;
-  background-color: #002349;
-  border-radius: 18px;
-  padding: 10px 0;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
-nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  padding: 0;
+  background-color: #d3d3dd;
+  overflow: hidden;
   margin: 0;
 }
-
-nav ul li {
-  margin-right: 28px;
-  font-family: 'Arial', 'Sans-serif';
-  font-size: 20px;
-  position: relative; /* Needed for the pseudo-element */
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 5px 10px;
-  transition: color 0.3s ease;
-}
-
-nav ul li a:hover,
-nav ul li a.active {
-  color: #957C3D;
-}
-
-nav ul li a::after {
-  content: "";
+/*.orange-circle {
+  width: 250px;
+  height: 150px;
+  background-color: #FF6F00;
+  border-radius: 50%;
   position: absolute;
-  width: 0;
-  height: 2px;
-  display: block;
-  margin-top: 5px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #957C3D;
-  transition: width 0.3s ease;
+  top: -50px;
+  left: -50px;
+}*/
+.white-circle {
+  width: 200px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  right: -40px;
 }
-
-nav ul li a:hover::after,
-nav ul li a.active::after {
-  width: 50%;
+.black-circle {
+  width: 150px;
+  height: 150px;
+  background-color: #000000;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -90px;
+  left: -30px;
+}
+.blue-circle {
+  width: 330px;
+  height: 150px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -100px;
+  right: -80px;
+}
+li {
+  display: flex;
+  flex-direction: row;
+}
+@media only screen (max: 394px){
+  
 }
