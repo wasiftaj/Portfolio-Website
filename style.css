@@ -1,3 +1,6 @@
+body {
+  background-color: #F1FAEE;
+}
 .container {
   display: flex;
   justify-content: space-between;
@@ -11,7 +14,7 @@
 }
 li {
   list-style-type: none;
-  color: black;
+  color: #457B9D;
   display: inline;
   margin-right: 20px;
   size: 50px;
@@ -29,18 +32,24 @@ a {
 button {
   margin-top: 45px;
   margin-right: 45px;
+  background-color: #150557;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
 }
-.container2 {
+/*.container2 {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  padding: 20px;
 }
 .Text-div {
   display: flex;
 }
 h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: ;
 }
 .image-div {
   display: flex;
@@ -49,6 +58,39 @@ h3 {
 img {
   width: 380px;
   height: auto;
-  margin-right: 15%;
+  margin-right: ;
   margin-top: 5%;
+  
 }
+.name-div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}*/
+.container2 {
+  display: flex;
+}
+
+.flex-columns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust the gap between columns */
+  flex: 1; /* Take available space on the left */
+}
+
+.flex-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.flex-image {
+  margin-left: 20px;
+}
+
+.flex-image img {
+  max-width: 100%; /* Make sure the image is responsive */
+  height: auto;
+  border-radius: 8px;
+}
+
