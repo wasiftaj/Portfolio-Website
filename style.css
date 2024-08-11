@@ -1,5 +1,6 @@
 body {
   background-color: #F1FAEE;
+  overflow: hidden;
 }
 .container {
   display: flex;
@@ -161,10 +162,7 @@ body {
 .container {
   display: flex;
   justify-content: space-between;
-  position: relative; /* Ensure relative positioning for absolute elements */
-}
-
-/* Style for navigation and button */
+  position: relative; 
 .nav-div {
   display: flex;
   flex-direction: row;
@@ -200,10 +198,20 @@ button {
   border-radius: 10px;
   height: 40px;
   width: 100px;
+  transition: transform 0.3s ease;
 }
-.shape {
-  width: 150px;
-  height: 150px;
-  background-color: red;
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+button:hover {
+  transform: scale(1.1);
+}
+
+
+.curved {
+  background-color: hsl(211, 69%, 76%);
+}
+.curved svg {
+  display: block;
+}
+.curved-upper {
+  background-color: white;
+}
 }
