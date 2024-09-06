@@ -4,6 +4,10 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
 .main {
     display: flex;
@@ -29,7 +33,7 @@ ul li {
 }
 
 ul li img {
-    background-color: #434241;
+    background-color: #1e1d1c;
     margin: 15px;
     height: 30px;
     width: auto;
@@ -95,6 +99,9 @@ ul li img:hover {
 }
 .contact-button button {
     margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
     background-color: #ffc300;
     border: 1px solid #ffc300;
     border-radius: 10px;
