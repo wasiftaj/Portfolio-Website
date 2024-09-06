@@ -29,11 +29,11 @@ ul li {
 }
 
 ul li img {
-    background-color: #082e5d;
+    background-color: #434241;
     margin: 15px;
     height: 30px;
     width: auto;
-    border: 1px solid #082e5d;
+    border: 1px solid #ffc300;
     border-radius: 50px;
     padding: 7px;
     transition: transform 0.3s ease, filter 0.3s ease;  
@@ -46,13 +46,60 @@ ul li img:hover {
 
 .right-container {
     width: 85%;
-    background-color: #222;
     color: white;
     border-radius: 10px;
     max-height: 100%;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
-.profile-image {
+.profile-div {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    margin-top: 150px;
+}
+.wasif {
+    height: 200px;
+    width: auto;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.name p {
+    margin-top: 7px;
+    font-size: 20px;
+}
+.links {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.links a {
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+.links a:hover {
+    transform: scale(1.30);
+}
+.contact-button {
+    display: flex;
+    justify-content: center;
+}
+.contact-button button {
+    margin-top: 20px;
+    background-color: #ffc300;
+    border: 1px solid #ffc300;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
