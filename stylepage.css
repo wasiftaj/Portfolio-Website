@@ -45,10 +45,11 @@ body {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     width: 15%;
-    border-radius: 10px;
     max-height: 100%;
+}
+.middle-container h1 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 .middle-container h1 {
     color: white;
@@ -71,6 +72,7 @@ body {
     padding: 10px;
 }
 .right-container p {
+    margin-left: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: white;
@@ -92,10 +94,68 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
 }
-.boxes .box1, .box2, .box3, .box4{
-    height: 100px;
-    width: 100px;
-    border: 1px solid #ffc300;
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box1text {
+    margin-left: 40px;
+}
+.box1text h1 {
+    color: #8c8989;
+}
+.box1text h2 {
+    color: white;
+}
+.box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box2text {
+    margin-left: 40px;
+}
+.box2text h1 {
+    color: #8c8989;
+}
+.box2text h2 {
+    color: white;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box3 img {
+    width: 50px;
+    height: 50px;
+}
+.box3text {
+    margin-left: 40px;
+}
+.box3text h1 {
+    color: #8c8989;   
+}
+.box3text h2 {
+    color: white;
+}
+
+
+.box4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box4text {
+    margin-left: 40px;
+}
+.box4text h1 {
+    color: #8c8989;
+}
+.box4text h2 {
+    color: white;
 }
 
 @media only screen and (max-width: 470px) {
