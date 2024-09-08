@@ -207,3 +207,109 @@ body {
     padding: 7px;
 }
 
+
+.newaboutsec {
+    display: flex;
+    flex-direction: column;
+}
+.newaboutsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.masterbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-bottom: 60px;
+}
+
+.leftside {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.htmlbar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+}
+
+.htmlprogress {
+    width: 90%;
+    height: 100%;
+    background-color: #ffc300;
+}
+.gitbar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+}
+.gitprogress {
+    width: 80%;
+    height: 100%;
+    background-color: #ffc300;
+}
+
+.pythonbar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+}
+.pythonprogress {
+    width: 30%;
+    height: 100%;
+    background-color: #ffc300;
+}
+.rightside {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.cssbar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+}
+.cssprogress {
+    width: 85%;
+    height: 100%;
+    background-color: #ffc300;
+}
+.javabar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+}
+.javaprogress {
+    width: 65%;
+    height: 100%;
+    background-color: #ffc300;
+}
+.djangobar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+}
+.djangoprogress {
+    width: 30%;
+    height: 100%;
+    background-color: #ffc300;
+}
