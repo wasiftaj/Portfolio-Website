@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-
+/* navbar for Desktop
 .navbar {
     margin-top: 45%;
 }
@@ -41,6 +41,7 @@ body {
     transform: scale(1.10);
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
 }
+/* Container of heading about me and image*/
 .middle-container {
     margin-top: 80px;
     display: flex;
@@ -57,6 +58,7 @@ body {
 .middle-container img{
     margin-top: 80px;
 }
+/*container of about me paragraph*/
 
 .right-container {
     margin-right: 15px;
@@ -89,6 +91,7 @@ body {
 .right-container p button:hover {
     transform: scale(1.10);
 }
+/* All four Boxes*/
 .boxes {
     display: flex;
     flex-direction: row;
@@ -158,56 +161,8 @@ body {
     color: white;
 }
 
-@media only screen and (max-width: 470px) {
-    .navbar-media {
-        display: flex;
-    }
-    .navbar-media ul li{
-        margin-right: 15px;
-    }
-    .navbar {
-        display: none;
-    }
-    .middle-container {
-        margin-top: 60px;
-        max-width: 100%;
-        margin-right: 35px;
-    }
-}
 
-@media only screen and (min-width: 471px){
-    .navbar-media {
-        display: none;
-    }
-    .navbar {
-        display: flex;
-    }
-}
-/* For Responsiveness*/
-.navbar-media {
-    position: fixed;
-    flex-direction: row;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    justify-content: center;
-    align-items: center;
-}
-.navbar-media ul li {
-    list-style-type: none;
-    display: inline;
-}
-.navbar-media li img {
-    background-color: #1e1d1c;
-    border: 1px solid #ffc300;
-    border-radius: 50%;
-    height: 30px;
-    width: auto;
-    padding: 7px;
-}
-
-
+/* Skills Loading Bar area*/
 .newaboutsec {
     display: flex;
     flex-direction: column;
