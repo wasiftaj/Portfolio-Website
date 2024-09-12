@@ -34,7 +34,7 @@ body {
     border: 1px solid #ffc300;
     border-radius: 50px;
     padding: 7px;
-    transition: transform 0.3s ease, filter 0.3s ease; 
+    transition: transform 0.3s ease, filter 0.3s ease;  
 }
 
 .navbar li img:hover {
@@ -49,7 +49,6 @@ body {
     max-height: 100%;
 }
 .middle-container h1 {
-    text-shadow: 10px 5px 15px black;
     font-family: Arial, Helvetica, sans-serif;
 }
 .middle-container h1 {
@@ -57,8 +56,6 @@ body {
 }
 .middle-container img{
     margin-top: 80px;
-    border-radius: 50%;
-    box-shadow: 10px 5px 15px black;
 }
 
 .right-container {
@@ -73,7 +70,6 @@ body {
     border-radius: 12px;
     background-color: #383838;
     padding: 10px;
-    box-shadow: 0px 0px 20px black;
 }
 .right-container p {
     margin-left: 15px;
@@ -89,7 +85,6 @@ body {
     font-size: 20px;
     color: white;
     transition: transform 0.3s ease;
-    box-shadow: 5px 10px 50px black;
 }
 .right-container p button:hover {
     transform: scale(1.10);
@@ -97,12 +92,12 @@ body {
 .boxes {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-;
 }
 .box1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-;
 }
 .box1text {
     margin-left: 40px;
@@ -116,7 +111,7 @@ body {
 .box2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-;
 }
 .box2text {
     margin-left: 40px;
@@ -131,7 +126,7 @@ body {
 .box3 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-;
 }
 .box3 img {
     width: 50px;
@@ -151,7 +146,7 @@ body {
 .box4 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-;
 }
 .box4text {
     margin-left: 40px;
@@ -227,7 +222,7 @@ body {
 .masterbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-;
     width: 80%;
     margin-bottom: 60px;
 }
@@ -236,7 +231,7 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-;
 }
 
 .htmlbar {
@@ -245,7 +240,6 @@ body {
     overflow: hidden;
     width: 80%;
     max-width: 600px;
-    box-shadow: 5px 10px 15px black;
 }
 
 .htmlprogress {
@@ -259,7 +253,6 @@ body {
     overflow: hidden;
     width: 80%;
     max-width: 600px;
-    box-shadow: 5px 10px 15px black;
 }
 .gitprogress {
     width: 80%;
@@ -273,7 +266,6 @@ body {
     overflow: hidden;
     width: 80%;
     max-width: 600px;
-    box-shadow: 5px 10px 15px black;
 }
 .pythonprogress {
     width: 30%;
@@ -291,7 +283,6 @@ body {
     overflow: hidden;
     width: 80%;
     max-width: 600px;
-    box-shadow: 5px 10px 15px black;
 }
 .cssprogress {
     width: 85%;
@@ -304,7 +295,6 @@ body {
     overflow: hidden;
     width: 80%;
     max-width: 600px;
-    box-shadow: 5px 10px 15px black;
 }
 .javaprogress {
     width: 65%;
@@ -317,56 +307,9 @@ body {
     overflow: hidden;
     width: 80%;
     max-width: 600px;
-    box-shadow: 5px 10px 15px black;
 }
 .djangoprogress {
     width: 30%;
     height: 100%;
     background-color: #ffc300;
-}
-
-
-@media only screen and (max-width: 470px) {
-    .navbar-media {
-        display: flex;
-    }
-    .navbar-media ul li{
-        margin-right: 15px;
-    }
-    .navbar {
-        display: none;
-    }
-    .middle-container {
-        margin-top: 60px;
-        max-width: 100%;
-        margin-right: 35px;
-    }
-    .right-container {
-        height: 900px;
-    }
-    .boxes {
-        margin-top: 325px;
-    }
-    .masterbar {
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    .leftside {
-        width: 100%;
-    }
-    .rightside {
-        width: 100%;
-    }
-    .boxes {
-        flex-wrap: wrap;
-    }
-}
-
-@media only screen and (min-width: 471px){
-    .navbar-media {
-        display: none;
-    }
-    .navbar {
-        display: flex;
-    }
 }
