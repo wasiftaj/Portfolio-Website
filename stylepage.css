@@ -510,7 +510,6 @@ body {
 
 /*Certification*/ 
 .cerborder {
-    margin-left: 65px;
     flex-wrap: wrap;
     border-left: 5px solid #ffc300;
 }
@@ -678,4 +677,21 @@ body {
     border: 1px solid white;
     border-radius: 40px;
     padding: 4px;
+}
+
+
+
+
+
+/*Style for contact Page*/
+.mainc {
+    display: flex;
+    flex-direction: row;
+    max-width: 85%;
+}
+.leftc {
+    display: flex;
+}
+.rightc {
+    display: flex;
 }
