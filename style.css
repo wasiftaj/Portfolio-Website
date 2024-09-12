@@ -61,7 +61,7 @@ body {
     height: 200px;
     width: auto;
     border-radius: 50%;
-    box-shadow: 0 0 10px #ffc300;
+    box-shadow: 10px 5px 15px black;
 }
 .name {
     display: flex;
@@ -72,10 +72,12 @@ body {
 .name h1 {
     font-size: 40px;
     margin-bottom: 0;
+    text-shadow: 10px 5px 15px black;
 }
 .name p {
     margin-top: 7px;
     font-size: 20px;
+    text-shadow: 10px 5px 15px black;
 }
 .links {
     display: flex;
@@ -105,6 +107,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     transition: transform 0.3s ease;
+    box-shadow: 10px 5px 15px black;
 }
 .contact-button button:hover {
     transform: scale(1.10);
