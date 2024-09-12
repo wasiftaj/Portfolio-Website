@@ -19,7 +19,7 @@ body {
 }
 
 .navbar {
-    margin-top: 45%;
+    margin-top: 70%;
 }
 
 .navbar ul li {
@@ -121,7 +121,7 @@ body {
         margin-right: 15px;
     }
     .navbar-media ul li img {
-        height: 25px;
+        height: 30px;
         width: auto;
     }
     .navbar {

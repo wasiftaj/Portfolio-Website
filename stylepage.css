@@ -19,7 +19,7 @@ body {
 }
 
 .navbar {
-    margin-top: 45%;
+    margin-top: 70%;
 }
 
 .navbar ul li {
@@ -343,7 +343,7 @@ body {
         display: none;
     }
     .right-container {
-        margin-left: 50px;
+        margin-left: 45px;
     }
     .navbar-media {
         display: flex;
@@ -352,7 +352,7 @@ body {
         margin-right: 15px;
     }
     .navbar-media li img {
-        height: 25px;
+        height: 30px;
         width: auto;
     } 
     .navbar {
@@ -367,7 +367,7 @@ body {
         height: 1100px;
     }
     .boxes {
-        margin-top: 600px;
+        margin-top: 450px;
     }
     .masterbar {
         flex-direction: column;
@@ -392,7 +392,7 @@ body {
         display: flex;
     }
 }
-@media only screen and (min-width: 420px) and (max-width: 600px) {
+@media only screen and (min-width: 390px) and (max-width: 600px) {
     .main {
         flex-direction: column;
     }
@@ -401,7 +401,7 @@ body {
         height: 5px;
     }
     .middle-container h1 {
-        margin-top: 60px;
+        margin-top: 150px;
         margin-left: 125px;
     }
     .middle-container img {
@@ -443,4 +443,29 @@ body {
     .boxes {
         flex-wrap: wrap;
     }
+}
+
+
+
+
+/*Styles for Education Section*/
+.timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%; 
+    flex-direction: column;
+}
+
+.eduborder {
+    border-left: 5px solid #ffc300;
+}
+.eduborder h2 {
+    color: white;
+}
+.cerborder {
+    border-left: 5px solid #ffc300;
+}
+.cerborder h2 {
+    color: white;
 }
