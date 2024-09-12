@@ -113,12 +113,16 @@ body {
     transform: scale(1.10);
     background-color: #d4aa20;
 }
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 400px) {
     .navbar-media {
         display: flex;
     }
     .navbar-media ul li{
         margin-right: 15px;
+    }
+    .navbar-media ul li img {
+        height: 25px;
+        width: auto;
     }
     .navbar {
         display: none;
