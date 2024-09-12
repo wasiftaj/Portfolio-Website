@@ -60,6 +60,8 @@ body {
 .wasif {
     height: 200px;
     width: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ffc300;
 }
 .name {
     display: flex;

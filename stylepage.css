@@ -70,6 +70,7 @@ body {
     border-radius: 12px;
     background-color: #383838;
     padding: 10px;
+    box-shadow: 0px 0px 10px #ffc300;
 }
 .right-container p {
     margin-left: 15px;
