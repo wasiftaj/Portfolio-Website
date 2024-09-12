@@ -451,21 +451,228 @@ body {
 /*Styles for Education Section*/
 .timeline {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 85%; 
     flex-direction: column;
 }
-
+/*Education*/
 .eduborder {
+    margin-left: 65px;
     border-left: 5px solid #ffc300;
 }
 .eduborder h2 {
     color: white;
 }
+/* VU Section*/
+.vu {
+    display: flex;
+    flex-direction: row;
+}
+.vu img {
+    margin-left: 20px;
+    margin-top: 8px;
+    height: 50px;
+    width: auto;
+}
+.vu div {
+    margin-left: 15px;
+}
+.vu div h4 {
+    color: white;
+}
+.vu div p {
+    color: #8c8989;
+}
+
+
+/*MAO Secttion */
+.mao {
+    display: flex;
+    flex-direction: row;
+}
+.mao img {
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 50px;
+    width: auto;
+}
+.mao div {
+    margin-left: 20px;
+}
+.mao div h4 {
+    color: white;
+}
+.mao div p {
+    color: #8c8989;
+}
+
+/*Certification*/ 
 .cerborder {
     border-left: 5px solid #ffc300;
 }
 .cerborder h2 {
     color: white;
+}
+.digi1 {
+    display: flex;
+    flex-direction: row;
+}
+.digi1 img {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 30px;
+    width: auto;
+}
+.digi1 div  {
+    margin-left: 20px;
+}
+.digi1 div h4 {
+    color: white;
+}
+.digi1 div p {
+    color: #8c8989;
+}
+.digi1cer {
+    padding: 4px;
+    border-radius: 40px;
+    border: 1px solid white;
+}
+.digi1 div a {
+    text-decoration: none;
+}
+.linkedin {
+    display: flex;
+    flex-direction: row;
+}
+.linkedin img {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 30px;
+    width: auto;
+}
+.linkedin div {
+    margin-left: 20px;
+}
+.linkedin h4 {
+    color: white;
+}
+.linkedin a p {
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+.linkedin a {
+    text-decoration: none;
+}
+.linkedin p {
+    color: #8c8989;
+}
+.harvard {
+    display: flex;
+    flex-direction: row;
+}
+.harvard img {
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 40px;
+    width: auto;
+}
+.harvard div {
+    margin-left: 20px;
+}
+.harvard h4 {
+    color: white;
+}
+.harvard div .cs50cer {
+    padding: 4px;
+    border-radius: 40px;
+    border:  solid white 1px;
+}
+.harvard a {
+    text-decoration: none;
+}
+.harvard p {
+    color: #8c8989;
+}
+.pu {
+    display: flex;
+    flex-direction: row;
+}
+.pu img {
+    margin-top: 10px;
+    margin-left: 13px;
+    height: 50px;
+    width: auto;
+}
+.pu div {
+    margin-left: 10px;
+}
+.pu h4 {
+    color: white;
+}
+.pu p {
+    color: #8c8989;
+}
+.pu .pucer {
+    padding: 4px;
+    border-radius: 40px;
+    border: 1px solid white;
+}
+.pu a {
+    text-decoration: none;
+}
+.cisco {
+    display: flex;
+    flex-direction: row;
+}
+.cisco img {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 40px;
+    width: auto;
+}
+.cisco div {
+    margin-left: 20px;
+}
+.cisco h4 {
+    color: white;
+}
+.cisco p {
+    color: #8c8989;
+}
+.ciscocer{
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+.cisco a {
+    text-decoration: none;
+}
+.amnesty {
+    display: flex;
+    flex-direction: row;
+}
+.amnesty img {
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 40px;
+    width: auto;
+}
+.amnesty div {
+    margin-left: 20px;
+}
+.amnesty h4 {
+    color: white;
+}
+.amnesty p {
+    color: #8c8989;
+}
+.amnesty a {
+    text-decoration: none;
+}
+.amnestycer {
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 4px;
 }
