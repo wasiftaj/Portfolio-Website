@@ -101,29 +101,29 @@
             <div class="leftside">
                 <p style="color: white;">HTML</p>
                 <div class="htmlbar">
-                    <div class="htmlprogress"></div>
+                    <div class="htmlprogress" id="htmlprogress" data-target-width="80"></div>
                 </div>
                 <p style="color: white;">Git & Github</p>
                 <div class="gitbar">
-                    <div class="gitprogress"></div>
+                    <div class="gitprogress" id="gitprogress" data-target-width="80"></div>
                 </div>
                 <p style="color: white;">Python</p>
                 <div class="pythonbar">
-                    <div class="pythonprogress"></div>
+                    <div class="pythonprogress" id="pythonprogress" data-target-width="30"></div>
                 </div>
             </div>
             <div class="rightside">
                 <p style="color: white;">CSS</p>
                 <div class="cssbar">
-                    <div class="cssprogress"></div>
+                    <div class="cssprogress" id="cssprogress" data-target-width="85"></div>
                 </div>
                 <p style="color: white;">JavaScript</p>
                 <div class="javabar">
-                    <div class="javaprogress"></div>
+                    <div class="javaprogress" id="javaprogress" data-target-width="65"></div>
                 </div>
                 <p style="color: white;">Django</p>
                 <div class="djangobar">
-                    <div class="djangoprogress"></div>
+                    <div class="djangoprogress" id="djangoprogress" data-target-width="30"></div>
                 </div>
             </div>
         </div>
@@ -243,16 +243,17 @@
             <b>wasiftaj073@gmail.com</b></p>
         </div>
         <div class="contactdiv">
-            <form action="text">
-                <input type="text" placeholder="Your Name" class="fname">
-                 <input type="email" name="email" id="email" placeholder="Your Email" class="email">
-                <textarea name="textarea" id="textarea" class="textarea" placeholder="Your Message"></textarea>
-                <button type="reset" class="formbtn" id="formbtn" name="form">Submit</button>
+            <form action="https://formspree.io/f/manwzbqo" method="POST">
+                <input type="text" name="Name" placeholder="Your Name" class="fname" required>
+                 <input type="email" name="Email" id="email" placeholder="Your Email" class="email" required>
+                <textarea name="Message" id="textarea" class="textarea" placeholder="Your Message" required></textarea>
+                <button type="submit" class="formbtn" id="formbtn" name="form">Send</button>
             </form>
         </div>
     </div>
     <br>
     <br>
     <br>
+    <script src="script.js"></script>
 </body>
 </html>

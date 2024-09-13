@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgb(30, 28, 28);
     margin: 0;
@@ -797,7 +800,7 @@ body {
         display: none;
     }
     .p-container {
-        height: 800px;
+        height: 825px;
         margin-left: 50px;
     }
     .cerborder {
