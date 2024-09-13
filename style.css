@@ -164,3 +164,533 @@ body {
     width: auto;
     padding: 7px;
 }
+
+
+
+
+
+
+/*Styles for about page */
+.aboutmain {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+}
+/*Middle Container with heading and picture*/
+.middle-container {
+    margin-right: 50px;
+    justify-content: center;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    max-height: 100%;
+}
+.middle-container h1 {
+    text-shadow: 10px 5px 15px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middle-container h1 {
+    color: #ffc300;
+}
+.middle-container img{
+    margin-top: 80px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 15px black;
+}
+
+
+
+/*Styles of abright-container with about p*/
+.p-container {
+    margin-right: 15px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    height: 425px;
+    width: 800px;
+    border: 1px solid #383838;
+    border-radius: 12px;
+    background-color: #383838;
+    padding: 10px;
+    box-shadow: 0px 0px 20px black;
+}
+.p-container p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.p-container p button {
+    background-color: #ffc300;
+    border: 1px solid #ffc300;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    transition: transform 0.3s ease;
+    box-shadow: 5px 10px 50px black;
+}
+.abright-container p button:hover {
+    transform: scale(1.10);
+}
+
+
+
+/* 4 boxes of git repositorey and about information */
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box1text {
+    margin-left: 40px;
+}
+.box1text h1 {
+    color: #8c8989;
+}
+.box1text h2 {
+    color: white;
+}
+.box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box2text {
+    margin-left: 40px;
+}
+.box2text h1 {
+    color: #8c8989;
+}
+.box2text h2 {
+    color: white;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box3 img {
+    width: 50px;
+    height: 50px;
+}
+.box3text {
+    margin-left: 40px;
+}
+.box3text h1 {
+    color: #8c8989;   
+}
+.box3text h2 {
+    color: white;
+}
+
+
+.box4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box4text {
+    margin-left: 40px;
+}
+.box4text h1 {
+    color: #8c8989;
+}
+.box4text h2 {
+    color: white;
+}
+
+
+/*All the bars*/
+
+.newaboutsec {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.newaboutsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.masterbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-bottom: 60px;
+}
+
+.leftside {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.htmlbar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 5px 10px 15px black;
+}
+
+.htmlprogress {
+    width: 90%;
+    height: 100%;
+    background-color: #ffc300;
+}
+.gitbar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 5px 10px 15px black;
+}
+.gitprogress {
+    width: 80%;
+    height: 100%;
+    background-color: #ffc300;
+}
+
+.pythonbar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 5px 10px 15px black;
+}
+.pythonprogress {
+    width: 30%;
+    height: 100%;
+    background-color: #ffc300;
+}
+.rightside {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.cssbar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 5px 10px 15px black;
+}
+.cssprogress {
+    width: 85%;
+    height: 100%;
+    background-color: #ffc300;
+}
+.javabar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 5px 10px 15px black;
+}
+.javaprogress {
+    width: 65%;
+    height: 100%;
+    background-color: #ffc300;
+}
+.djangobar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 5px 10px 15px black;
+}
+.djangoprogress {
+    width: 30%;
+    height: 100%;
+    background-color: #ffc300;
+}
+
+
+
+
+.timeline {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%; 
+    flex-direction: column;
+}
+/*Education*/
+.eduborder {
+    flex-wrap: wrap;
+    margin-left: 65px;
+    border-left: 5px solid #ffc300;
+}
+.eduborder h2 {
+    color: white;
+}
+/* VU Section*/
+.vu {
+    display: flex;
+    flex-direction: row;
+}
+.vu img {
+    margin-left: 20px;
+    margin-top: 8px;
+    height: 50px;
+    width: auto;
+}
+.vu div {
+    margin-left: 15px;
+}
+.vu div h4 {
+    color: white;
+}
+.vu div p {
+    color: #8c8989;
+}
+
+
+/*MAO Secttion */
+.mao {
+    display: flex;
+    flex-direction: row;
+}
+.mao img {
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 50px;
+    width: auto;
+}
+.mao div {
+    margin-left: 20px;
+}
+.mao div h4 {
+    color: white;
+}
+.mao div p {
+    color: #8c8989;
+}
+
+/*Certification*/ 
+.cerborder {
+    flex-wrap: wrap;
+    border-left: 5px solid #ffc300;
+}
+.cerborder h2 {
+    color: white;
+}
+.digi1 {
+    display: flex;
+    flex-direction: row;
+}
+.digi1 img {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 30px;
+    width: auto;
+}
+.digi1 div  {
+    margin-left: 20px;
+}
+.digi1 div h4 {
+    color: white;
+}
+.digi1 div p {
+    color: #8c8989;
+}
+.digi1cer {
+    padding: 4px;
+    border-radius: 40px;
+    border: 1px solid white;
+}
+.digi1 div a {
+    text-decoration: none;
+}
+.linkedin {
+    display: flex;
+    flex-direction: row;
+}
+.linkedin img {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 30px;
+    width: auto;
+}
+.linkedin div {
+    margin-left: 20px;
+}
+.linkedin h4 {
+    color: white;
+}
+.linkedin a p {
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+.linkedin a {
+    text-decoration: none;
+}
+.linkedin p {
+    color: #8c8989;
+}
+.harvard {
+    display: flex;
+    flex-direction: row;
+}
+.harvard img {
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 40px;
+    width: auto;
+}
+.harvard div {
+    margin-left: 20px;
+}
+.harvard h4 {
+    color: white;
+}
+.harvard div .cs50cer {
+    padding: 4px;
+    border-radius: 40px;
+    border:  solid white 1px;
+}
+.harvard a {
+    text-decoration: none;
+}
+.harvard p {
+    color: #8c8989;
+}
+.pu {
+    display: flex;
+    flex-direction: row;
+}
+.pu img {
+    margin-top: 10px;
+    margin-left: 13px;
+    height: 50px;
+    width: auto;
+}
+.pu div {
+    margin-left: 10px;
+}
+.pu h4 {
+    color: white;
+}
+.pu p {
+    color: #8c8989;
+}
+.pu .pucer {
+    padding: 4px;
+    border-radius: 40px;
+    border: 1px solid white;
+}
+.pu a {
+    text-decoration: none;
+}
+.cisco {
+    display: flex;
+    flex-direction: row;
+}
+.cisco img {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 40px;
+    width: auto;
+}
+.cisco div {
+    margin-left: 20px;
+}
+.cisco h4 {
+    color: white;
+}
+.cisco p {
+    color: #8c8989;
+}
+.ciscocer{
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+.cisco a {
+    text-decoration: none;
+}
+.amnesty {
+    display: flex;
+    flex-direction: row;
+}
+.amnesty img {
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 40px;
+    width: auto;
+}
+.amnesty div {
+    margin-left: 20px;
+}
+.amnesty h4 {
+    color: white;
+}
+.amnesty p {
+    color: #8c8989;
+}
+.amnesty a {
+    text-decoration: none;
+}
+.amnestycer {
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 4px;
+}
+
+
+
+
+
+/*Style for contact Page*/
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.leftc {
+    margin-left: 50px;
+    justify-content: center;
+    display: flex;
+    width: 30%;
+}
+.leftc h2, p {
+    color: rgb(159, 153, 153);
+}
+.leftc h1 {
+    color: #ffc300;
+}
+.textleft {
+    display: flex;
+    flex-direction: column;
+}
+.textleft p {
+    margin-top: 5px;
+}
+.rightc {
+    justify-content: center;
+    width: 70%;
+    display: flex;
+}
