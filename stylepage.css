@@ -684,14 +684,33 @@ body {
 
 
 /*Style for contact Page*/
-.mainc {
+.contact {
     display: flex;
     flex-direction: row;
-    max-width: 85%;
+    justify-content: space-between;
+    max-width: 100%;
 }
 .leftc {
+    margin-left: 50px;
+    justify-content: center;
     display: flex;
+    width: 30%;
+}
+.leftc h2, p {
+    color: rgb(159, 153, 153);
+}
+.leftc h1 {
+    color: #ffc300;
+}
+.textleft {
+    display: flex;
+    flex-direction: column;
+}
+.textleft p {
+    margin-top: 5px;
 }
 .rightc {
+    justify-content: center;
+    width: 70%;
     display: flex;
 }
