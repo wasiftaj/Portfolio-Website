@@ -581,7 +581,7 @@ body {
         display: flex;
     }
     .navbar-media ul li{
-        margin-right: 1px;
+        margin-right: 15px;
     }
     .navbar {
         display: none;

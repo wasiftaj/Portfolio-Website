@@ -722,7 +722,7 @@ body {
 .otherside h2 {
     color: #8c8989;
 }
-/*Query of Style.css
+/*Query of Style.css*/
 
 /*@media only screen and (max-width: 470px) {
     .navbar-media {
@@ -743,6 +743,7 @@ body {
         max-width: 100%;
         margin-right: 35px;
     }
+
 }
 @media only screen and (min-width: 470px){
     .navbar-media {
@@ -753,17 +754,67 @@ body {
     }
 }*/
 @media only screen and (max-width: 470px) {
+    .main {
+        margin-right: 25px;
+    }
+    .container {
+        justify-content: center;
+        align-items: center;
+    }
     .navbar {
         display: none;
     }
     .navbar-media {
         display: flex;
+        width: 85%;
+    }
+    .navbar-media ul li {
+        margin-right: 15px;
     }
     .contact {
         flex-wrap: wrap;
+        margin-left: 30px;
     }
-    .newaboutsec {
+    .masterbar {
         flex-direction: column;
+        width: 100%;
+        margin-left: 70px;
+    }
+    .masterbar .leftside {
+        width: 100%;
+    }
+    .masterbar .rightside {
+        width: 100%;
+    }
+    .aboutmain {
+        flex-direction: column;
+    }
+    .middle-container {
+        margin-left: 50px;
+        width: 40%;
+    }
+    .middle-container img {
+        display: none;
+    }
+    .p-container {
+        height: 800px;
+        margin-left: 50px;
+    }
+    .cerborder {
+        width: 65%;
+    }
+    .contact .fname {
+        
+        height: 40px;
+        width: 300px;
+    }
+    .contact .email {
+        height: 40px;
+        width: 300px;
+    }
+    .contact .textarea {
+        height: 150px;
+        width: 290px;
     }
 }
 @media only screen and (min-width: 471px){
