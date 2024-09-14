@@ -610,6 +610,28 @@ body {
     text-decoration: none;
 }
 
+.aspire {
+    display: flex;
+    flex-direction: row;
+}
+.aspire img {
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 40px;
+    width: auto;
+}
+.aspire div {
+    margin-left: 20px;
+}
+.aspire h4 {
+    color: white;
+}
+.aspire p {
+    color: #8c8989;
+}
+.aspire a {
+    text-decoration: none;
+}
 
 
 
