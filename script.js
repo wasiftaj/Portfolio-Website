@@ -93,3 +93,21 @@ const progressBars = document.querySelectorAll('.htmlprogress, .gitprogress, .py
 progressBars.forEach(bar => {
     observer.observe(bar);
 });
+
+
+
+
+function sendemail() {
+    let parms = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value,
+    };
+
+    emailjs.send("service_0gw0bw1", "template_ta6ebih", parms)
+    .then(function(response) {
+        alert("Email Sent!!");
+    }, function(error) {
+        alert("Failed to send email: " + error);
+    });
+}
