@@ -419,6 +419,9 @@ body {
     margin-left: 65px;
     border-left: 5px solid #ffc300;
 }
+.eduheading {
+    text-shadow: 10px 10px 10px black;
+}
 .eduborder h2 {
     color: white;
 }
@@ -469,6 +472,9 @@ body {
 .cerborder {
     flex-wrap: wrap;
     border-left: 5px solid #ffc300;
+}
+.cerheading {
+    text-shadow: 10px 10px 10px black;
 }
 .cerborder h2 {
     color: white;
