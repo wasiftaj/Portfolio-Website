@@ -1,16 +1,17 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body {
     background-color: rgb(30, 28, 28);
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 .main {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     height: 100vh;
 }
 
@@ -22,7 +23,6 @@ body {
 }
 
 .navbar {
-    margin-top: 70%;
 }
 
 .navbar ul li {
@@ -184,7 +184,7 @@ body {
 /*Styles of abright-container with about p*/
 .p-container {
     margin-right: 15px;
-    margin-top: 70px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     max-width: 70%;
@@ -477,6 +477,7 @@ body {
 .cerborder {
     flex-wrap: wrap;
     border-left: 5px solid #ffc300;
+
 }
 .cerheading {
     text-shadow: 10px 10px 10px black;
@@ -814,14 +815,18 @@ footer {
     }
     .navbar-media {
         display: flex;
-        width: 85%;
+        width: 93%;
     }
     .navbar-media ul li {
         margin-right: 15px;
     }
+    
     .contact {
         flex-wrap: wrap;
         margin-left: 30px;
+    }
+    .button {
+        display: none;
     }
     .masterbar {
         flex-direction: column;
@@ -845,11 +850,20 @@ footer {
         display: none;
     }
     .p-container {
-        height: 825px;
+        height: 725px;
         margin-left: 50px;
+    }
+    .p-container p a button {
+        display: none;
     }
     .cerborder {
         width: 65%;
+    }
+    .otherside {
+        margin-left: 15px;
+    }
+    .contactdiv {
+        margin-top: 20px;
     }
     .contact .fname {
         
@@ -871,5 +885,8 @@ footer {
     }
     .navbar {
         display: flex;
+    }
+    .button1 {
+        display: none;
     }
 }
