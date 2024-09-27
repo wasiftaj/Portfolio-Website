@@ -700,6 +700,7 @@ body {
     border: 1px solid black;
     border-radius: 27px;
     padding: 8px;
+    padding-left: 20px;
     box-shadow: 10px 5px 15px black;
 }
 .email {
@@ -710,6 +711,7 @@ body {
     border-radius: 25px;
     margin-top: 30px;
     padding: 8px;
+    padding-left: 20px;
     box-shadow: 10px 5px 15px black;
 
 }
@@ -720,6 +722,7 @@ body {
     border-radius: 15px;
     margin-top: 30px;
     padding: 15px;
+    padding-left: 20px;
     border: 1px solid black;
     box-shadow: 10px 5px 15px black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -757,6 +760,10 @@ body {
 
 .otherside h2 {
     color: #8c8989;
+}
+.contact .otherside p a {
+    text-decoration: none;
+    color: inherit;
 }
 footer {
     display: flex;
