@@ -767,7 +767,7 @@ body {
 }
 footer {
     display: flex;
-    background-color: black;
+    background-color: #383838;
     justify-content: center;
 }
 /*Query of Style.css*/
