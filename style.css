@@ -208,11 +208,10 @@ body {
     transition: transform 0.3s ease;
     box-shadow: 5px 10px 50px black;
 }
-.abright-container p button:hover {
-    transform: scale(1.10);
+p button:hover {
+    background-color: #eaba1d;
+    transform: scale(1.1);
 }
-
-
 
 /* 4 boxes of git repositorey and about information */
 .boxes {
