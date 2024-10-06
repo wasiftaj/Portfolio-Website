@@ -9,6 +9,10 @@ body {
     font-family: Arial, sans-serif;
     overflow-x: hidden;
 }
+::selection {
+    background-color: #ffc300;
+    color: white;
+}
 .main {
     display: flex;
     justify-content: space-between;
