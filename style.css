@@ -486,6 +486,9 @@ p button:hover {
 .cerborder h2 {
     color: white;
 }
+.cerborder a p:hover {
+    color: #ffc300;
+}
 .digi1 {
     display: flex;
     flex-direction: row;
@@ -753,7 +756,7 @@ p button:hover {
     display: flex;
     flex-direction: column;
     margin-left: 90px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .otherside h1 {
