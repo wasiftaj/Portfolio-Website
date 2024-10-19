@@ -14,7 +14,6 @@ body {
     color: white;
 }
 .main {
-
     display: flex;
     justify-content: space-between;
     height: 110vh;
@@ -25,6 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -100px;
 }
 
 .navbar ul li {
@@ -61,7 +61,7 @@ body {
     flex-direction: row;
     max-width: 100%;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 160px;
 }
 .wasif {
     height: 200px;
@@ -145,10 +145,6 @@ body {
     width: auto;
     padding: 7px;
 }
-
-
-
-
 
 
 /*Styles for about page */
