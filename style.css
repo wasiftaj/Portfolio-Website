@@ -431,7 +431,10 @@ p button:hover {
     box-shadow: 10px 10px 20px black;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.pro1:hover {
+    transform: scale(0.90);
+    box-shadow: 10px 10px 20px black, filter 0.3s ease;
+}
 .pro1 img {
     margin-bottom: 15px;
 }
@@ -474,7 +477,10 @@ p button:hover {
     box-shadow: 10px 10px 20px black;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.pro2:hover {
+    transform: scale(0.90);
+    box-shadow: 10px 10px 20px black, filter 0.3s ease;
+}
 .pro2 img {
     margin-bottom: 15px;
 }
@@ -500,7 +506,10 @@ p button:hover {
     box-shadow: 10px 10px 20px black;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.pro3:hover {
+    transform: scale(0.90);
+    box-shadow: 10px 10px 20px black, filter 0.3s ease;
+}
 .pro3 img {
     margin-bottom: 15px;
 }
@@ -531,7 +540,10 @@ p button:hover {
     box-shadow: 10px 10px 20px black;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.pro4:hover {
+    transform: scale(0.90);
+    box-shadow: 10px 10px 20px black, filter 0.3s ease;
+}
 .pro4 img {
     margin-bottom: 15px;
 }
