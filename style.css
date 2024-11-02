@@ -432,7 +432,7 @@ p button:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .pro1:hover {
-    transform: scale(0.90);
+    transform: scale(0.95);
     box-shadow: 10px 10px 20px black, filter 0.3s ease;
 }
 .pro1 img {
@@ -444,7 +444,7 @@ p button:hover {
     transition: transform 0.3s ease;
 }
 .gitbutton:hover {
-    transform: scale(1.10);
+    transform: scale(1.20);
 }
 
 .linkbutton {
@@ -454,7 +454,7 @@ p button:hover {
 
 }
 .linkbutton:hover {
-    transform: scale(1.10);
+    transform: scale(1.20);
 }
 
 .pro1 h2 {
@@ -478,7 +478,7 @@ p button:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .pro2:hover {
-    transform: scale(0.90);
+    transform: scale(0.95);
     box-shadow: 10px 10px 20px black, filter 0.3s ease;
 }
 .pro2 img {
@@ -507,7 +507,7 @@ p button:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .pro3:hover {
-    transform: scale(0.90);
+    transform: scale(0.95);
     box-shadow: 10px 10px 20px black, filter 0.3s ease;
 }
 .pro3 img {
@@ -541,7 +541,7 @@ p button:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .pro4:hover {
-    transform: scale(0.90);
+    transform: scale(0.95);
     box-shadow: 10px 10px 20px black, filter 0.3s ease;
 }
 .pro4 img {
