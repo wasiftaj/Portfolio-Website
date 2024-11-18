@@ -214,7 +214,7 @@ body {
 }
 p button:hover {
     background-color: #eaba1d;
-    transform: scale(1.1);
+    transform: scale(0.95);
 }
 
 /* 4 boxes of git repositorey and about information */
