@@ -89,7 +89,7 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 }); // Trigger when at least 10% of the element is visible
 
 // Observe the progress bar elements
-const progressBars = document.querySelectorAll('.htmlprogress, .gitprogress, .pythonprogress, .cssprogress, .javaprogress, .djangoprogress');
+const progressBars = document.querySelectorAll('.htmlprogress, .gitprogress, .pythonprogress, .cssprogress, .javaprogress, .djangoprogress, .cprogress');
 progressBars.forEach(bar => {
     observer.observe(bar);
 });

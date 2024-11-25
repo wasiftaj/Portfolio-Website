@@ -362,6 +362,19 @@ p button:hover {
     height: 100%;
     background-color: #ffc300;
 }
+.cbar {
+    height: 10px;
+    background-color: rgb(138, 133, 133);
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 5px 10px 15px black;
+}
+.cprogress {
+    width: 15%;
+    height: 100%;
+    background-color: #ffc300;
+}
 .rightside {
     width: 50%;
     display: flex;
