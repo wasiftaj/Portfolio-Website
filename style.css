@@ -124,6 +124,7 @@ body {
     box-shadow: 10px 5px 15px black;
 }
 .contact-button button:hover {
+    cursor: pointer;
     transform: scale(1.10);
     background-color: #d4aa20;
 }
@@ -216,6 +217,7 @@ body {
     box-shadow: 5px 10px 50px black;
 }
 p button:hover {
+    cursor: pointer;
     background-color: #eaba1d;
     transform: scale(0.95);
 }
@@ -912,6 +914,7 @@ p button:hover {
 
 }
 .contactdiv button:hover {
+    cursor: pointer;
     transform: scale(1.10);
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
 
