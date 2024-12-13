@@ -938,6 +938,9 @@ p button:hover {
     text-decoration: none;
     color: inherit;
 }
+.contact .otherside p a:hover {
+    color: #ffc300;
+}
 footer {
     display: flex;
     background-color: #383838;
