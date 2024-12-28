@@ -702,6 +702,29 @@ p button:hover {
 .linkedin p {
     color: #8c8989;
 }
+.vu1 {
+    display: flex;
+    flex-direction: row;
+}
+.vu1 img {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 30px;
+    width: auto;
+}
+.vu1 div  {
+    margin-left: 20px;
+}
+.vu1 div h4 {
+    color: white;
+}
+.vu1 div p {
+    color: #8c8989;
+}
+
+.vu1 div a {
+    text-decoration: none;
+}
 .harvard {
     display: flex;
     flex-direction: row;
