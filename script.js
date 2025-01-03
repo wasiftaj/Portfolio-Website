@@ -1,3 +1,13 @@
+<script>
+  AOS.init();
+</script>
+
+
+
+
+
+
+
 // Function to animate a progress bar
 function animateProgressBar(elementId, targetWidth, duration) {
     const progressBar = document.getElementById(elementId);
@@ -35,3 +45,18 @@ const progressBars = document.querySelectorAll('.htmlprogress, .gitprogress, .py
 progressBars.forEach(bar => {
     observer.observe(bar);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
