@@ -751,6 +751,32 @@ p button:hover {
 .se1 div a {
     text-decoration: none;
 }
+
+
+
+.cloud1 {
+    display: flex;
+    flex-direction: row;
+}
+.cloud1 img {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 30px;
+    width: auto;
+}
+.cloud1 div  {
+    margin-left: 20px;
+}
+.cloud1 div h4 {
+    color: white;
+}
+.cloud1 div p {
+    color: #8c8989;
+}
+
+.cloud1 div a {
+    text-decoration: none;
+}
 .harvard {
     display: flex;
     flex-direction: row;
