@@ -977,10 +977,10 @@ p button:hover {
     height: 50px;
     width: 110px;
     border-radius: 30px;
-    border: 1px solid #ffc300;
+    border: 1px solid #A9DFBF;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
-    background-color: #ffc300;
+    background-color: #A9DFBF;
     transition: transform 0.3s ease;
     box-shadow: 10px 5px 15px black, filter 0.3s ease;
 
@@ -989,6 +989,7 @@ p button:hover {
     cursor: pointer;
     transform: scale(1.10);
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    background-color: #008080;
 
 }
 .otherside {
@@ -1000,7 +1001,7 @@ p button:hover {
 }
 
 .otherside h1 {
-    color: #ffc300;
+    color: #008080;
 }
 
 .otherside h2 {
@@ -1011,7 +1012,7 @@ p button:hover {
     color: inherit;
 }
 .contact .otherside p a:hover {
-    color: #ffc300;
+    color: #008080;
 }
 footer {
     display: flex;
