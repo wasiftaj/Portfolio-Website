@@ -172,11 +172,9 @@ body {
     max-height: 100%;
 }
 .middle-container h1 {
+    color: #008080;
     text-shadow: 10px 5px 15px black;
     font-family: Arial, Helvetica, sans-serif;
-}
-.middle-container h1 {
-    color: #ffc300;
 }
 .middle-container img{
     margin-top: 80px;
@@ -207,18 +205,18 @@ body {
     color: white;
 }
 .p-container p button {
-    background-color: #ffc300;
-    border: 1px solid #ffc300;
+    background-color: #A9DFBF;
+    border: 1px solid #A9DFBF;
     border-radius: 30px;
     padding: 15px;
     font-size: 20px;
-    color: white;
+    color: black;
     transition: transform 0.3s ease;
     box-shadow: 5px 10px 50px black;
 }
 p button:hover {
     cursor: pointer;
-    background-color: #eaba1d;
+    background-color: #008080;
     transform: scale(0.95);
 }
 
@@ -338,7 +336,7 @@ p button:hover {
 .htmlprogress {
     width: 90%;
     height: 100%;
-    background-color: #ffc300;
+    background-color: #2F4F4F;
 }
 .gitbar {
     height: 10px;
@@ -351,7 +349,7 @@ p button:hover {
 .gitprogress {
     width: 80%;
     height: 100%;
-    background-color: #ffc300;
+    background-color: #2F4F4F;
 }
 
 .pythonbar {
@@ -365,7 +363,7 @@ p button:hover {
 .pythonprogress {
     width: 30%;
     height: 100%;
-    background-color: #ffc300;
+    background-color: #2F4F4F;
 }
 .cbar {
     height: 10px;
@@ -378,7 +376,7 @@ p button:hover {
 .cprogress {
     width: 15%;
     height: 100%;
-    background-color: #ffc300;
+    background-color: #2F4F4F;
 }
 .rightside {
     width: 50%;
@@ -396,7 +394,7 @@ p button:hover {
 .cssprogress {
     width: 85%;
     height: 100%;
-    background-color: #ffc300;
+    background-color: #2F4F4F;
 }
 .javabar {
     height: 10px;
@@ -409,7 +407,7 @@ p button:hover {
 .javaprogress {
     width: 65%;
     height: 100%;
-    background-color: #ffc300;
+    background-color: #2F4F4F;
 }
 .djangobar {
     height: 10px;
@@ -422,13 +420,13 @@ p button:hover {
 .djangoprogress {
     width: 30%;
     height: 100%;
-    background-color: #ffc300;
+    background-color: #2F4F4F;
 }
 /*Styles for Projects Section*/
 .pro-heading {
     text-align: center;
     margin-top: 50px;
-    color: #ffc300;
+    color: #008080;
     text-shadow: 10px 10px 10px black;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -590,13 +588,13 @@ p button:hover {
 .eduborder {
     flex-wrap: wrap;
     margin-left: 65px;
-    border-left: 5px solid #ffc300;
+    border-left: 5px solid #2F4F4F;
 }
 .eduheading {
     text-shadow: 10px 10px 10px black;
 }
 .eduborder h2 {
-    color: white;
+    color: #A9DFBF;
 }
 /* VU Section*/
 .vu {
@@ -644,18 +642,67 @@ p button:hover {
 /*Certification*/ 
 .cerborder {
     flex-wrap: wrap;
-    border-left: 5px solid #ffc300;
+    border-left: 5px solid #2F4F4F;
 
 }
 .cerheading {
     text-shadow: 10px 10px 10px black;
 }
 .cerborder h2 {
-    color: white;
+    color: #A9DFBF;
 }
 .cerborder a p:hover {
-    color: #ffc300;
+    color: #008080;
 }
+.cloud1 {
+    display: flex;
+    flex-direction: row;
+}
+.cloud1 img {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 30px;
+    width: auto;
+}
+.cloud1 div  {
+    margin-left: 20px;
+}
+.cloud1 div h4 {
+    color: white;
+}
+.cloud1 div p {
+    color: #8c8989;
+}
+
+.cloud1 div a {
+    text-decoration: none;
+}
+
+
+.se1 {
+    display: flex;
+    flex-direction: row;
+}
+.se1 img {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 30px;
+    width: auto;
+}
+.se1 div  {
+    margin-left: 20px;
+}
+.se1 div h4 {
+    color: white;
+}
+.se1 div p {
+    color: #8c8989;
+}
+
+.se1 div a {
+    text-decoration: none;
+}
+
 .digi1 {
     display: flex;
     flex-direction: row;
@@ -727,56 +774,6 @@ p button:hover {
 }
 
 
-
-.se1 {
-    display: flex;
-    flex-direction: row;
-}
-.se1 img {
-    margin-left: 20px;
-    margin-top: 15px;
-    height: 30px;
-    width: auto;
-}
-.se1 div  {
-    margin-left: 20px;
-}
-.se1 div h4 {
-    color: white;
-}
-.se1 div p {
-    color: #8c8989;
-}
-
-.se1 div a {
-    text-decoration: none;
-}
-
-
-
-.cloud1 {
-    display: flex;
-    flex-direction: row;
-}
-.cloud1 img {
-    margin-left: 20px;
-    margin-top: 15px;
-    height: 30px;
-    width: auto;
-}
-.cloud1 div  {
-    margin-left: 20px;
-}
-.cloud1 div h4 {
-    color: white;
-}
-.cloud1 div p {
-    color: #8c8989;
-}
-
-.cloud1 div a {
-    text-decoration: none;
-}
 .harvard {
     display: flex;
     flex-direction: row;
