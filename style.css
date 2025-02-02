@@ -127,6 +127,7 @@ body {
     cursor: pointer;
     transform: scale(1.10);
     background-color: #008080;
+    border-color: #008080;
 }
 
 /* For Responsiveness*/
@@ -218,6 +219,7 @@ p button:hover {
     cursor: pointer;
     background-color: #008080;
     transform: scale(0.95);
+    border-color: #008080;
 }
 
 /* 4 boxes of git repositorey and about information */
@@ -1021,6 +1023,7 @@ p button:hover {
     transform: scale(1.10);
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
     background-color: #008080;
+    border-color: #008080;
 
 }
 .otherside {
