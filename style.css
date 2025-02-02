@@ -49,6 +49,7 @@ body {
 .navbar li img:hover {
     transform: scale(1.10);
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    border-color: #008080;
 }
 
 
