@@ -642,6 +642,32 @@ p button:hover {
     color: #8c8989;
 }
 
+
+
+/*Professional Certificate Section*/
+.ibm {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.ibm .profimg {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.profimg img {
+    width: 90px;
+    height: auto;
+}
+.profimg h1 {
+    color: #008080;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+
 /*Certification*/ 
 .cerborder {
     flex-wrap: wrap;
