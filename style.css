@@ -665,7 +665,9 @@ p button:hover {
     color: #008080;
     font-size: 35px;
     margin-left: 30px;
+    text-shadow: 10px 10px 10px black;
 }
+
 
 
 /*Certification*/ 
