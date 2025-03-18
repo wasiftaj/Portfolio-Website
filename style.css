@@ -1131,6 +1131,29 @@ footer {
     background-color: #383838;
     justify-content: center;
 }
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Background of the scrollbar track */
+::-webkit-scrollbar-track {
+    background: rgb(30, 28, 28); 
+    border-radius: 10px;
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+    height: 20px;
+    background: #2F4F4F; 
+    border-radius: 10px;
+}
+
+/* Scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
 /*Query of Style.css*/
 
 /*@media only screen and (max-width: 470px) {
