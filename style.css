@@ -603,6 +603,10 @@ p button:hover {
     align-items: center;
     margin: 25px;
     border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.box:hover {
+    transform: scale(0.95);
 }
 .proimg {
     margin-top: 10px;
