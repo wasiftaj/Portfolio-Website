@@ -1272,3 +1272,14 @@ footer {
         display: none;
     }
 }
+
+
+
+
+
+
+/*For Cer.html*/
+.asprirefile {
+    display: flex;
+    flex-direction: row;
+}
